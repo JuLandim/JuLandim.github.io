@@ -1,0 +1,160 @@
+.contact-container{
+    background-color: #23232e;
+    margin: 0px -20px -40px -20px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    height: auto;   
+}
+
+.contact-division{
+    flex: 1;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#contact-profile h1{
+    color: #BF7636;
+}
+
+#contact-address-box{
+    color: white;
+    gap: 20px;
+}
+
+#contact-address-box h4{
+    text-align: center;
+    margin: 0;
+    font-size: 1.4em;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+#contact-address-box img {
+    width: 100%; 
+    max-width: 400px; 
+    border-radius: 10px; 
+    opacity: 1;
+    transition: opacity 0.3s ease;
+    cursor: pointer;
+}
+
+#address-img:hover{
+    opacity: 0.5;
+}
+
+#contact-address-box a{
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    font-size: 1em;
+}
+
+#contact-address-box a:hover{
+    text-decoration: underline;
+    color: #007bff;
+}
+
+.btn {
+    display: block;
+    font-size: 24px;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    color: #ffffff;
+    border-radius: 50%;
+    margin: 5px;
+    background-color: #007bff;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+}
+.btn:hover {
+    background-color: #0056b3;
+}
+
+/* Estilos específicos para cada âncora */
+.whatsapp {
+    background-color: #25d366;
+}
+
+.instagram {
+    background-color: #e4405f;
+}
+
+.linkedin {
+    background-color: #0077b5;
+}
+
+.facebook {
+    background-color: #3b5998;
+}
+
+.gmail {
+    background-color: #d44638;
+}
+
+.social-btn {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+
+.icone{
+    display: flex;
+}
+
+.icone p{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    letter-spacing: 2px;
+    font-weight: 500;
+    
+}
+
+.icone p:hover{
+    color: #007bff;
+    text-decoration: underline;
+}
+
+.social-btn a i {
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 50%;
+}
+
+footer
+{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: 5px;
+    background-color: var(--cor0);
+    color: white;
+    text-align: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+footer p{
+    font-size: 1em;
+}
+
+footer a{
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover{
+    text-decoration: underline;
+    color: #BF7636;
+}
